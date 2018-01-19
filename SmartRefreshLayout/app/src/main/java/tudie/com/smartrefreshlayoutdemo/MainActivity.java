@@ -5,19 +5,26 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.LinearLayout;
 
 import com.scwang.smartrefresh.adapter.adapterrecyclerview.CommonAdapter;
 import com.scwang.smartrefresh.adapter.adapterrecyclerview.base.ViewHolder;
 import com.scwang.smartrefresh.adapter.adapterrecyclerview.wrapper.EmptyWrapper;
 import com.scwang.smartrefresh.adapter.adapterrecyclerview.wrapper.HeaderAndFooterWrapper;
+import com.scwang.smartrefresh.header.CircleHeader;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
+import com.scwang.smartrefresh.layout.api.RefreshFooter;
+import com.scwang.smartrefresh.layout.api.RefreshHeader;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
+import com.scwang.smartrefresh.layout.constant.RefreshState;
 import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.scwang.smartrefresh.layout.listener.OnLoadmoreListener;
+import com.scwang.smartrefresh.layout.listener.OnMultiPurposeListener;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 
 import java.util.ArrayList;
@@ -32,11 +39,77 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SmartRefreshLayout refreshLayout = (SmartRefreshLayout) findViewById(R.id.smartLayout);
-        refreshLayout.setRefreshHeader(new ClassicsHeader(this));
+      final   SmartRefreshLayout refreshLayout = (SmartRefreshLayout) findViewById(R.id.smartLayout);
+        CircleHeader circleHeader=new CircleHeader(this);
+        circleHeader.setmBackPaintColor(0xffffffff);
+        circleHeader.setmFrontPaintColor(0xff02c293);
+        circleHeader.setmOuterPaintColor(0xff0000);
+        refreshLayout.setRefreshHeader(circleHeader);
         refreshLayout.setRefreshFooter(new ClassicsFooter(this));
         refreshLayout.setEnableRefresh(true);
         refreshLayout.setEnableLoadmore(true);
+//        refreshLayout.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
+//            @Override
+//            public void onScrollChanged() {
+//                Log.d("","sssssss"+refreshLayout.getTranslationY());
+//            }
+//        });
+        refreshLayout.setOnMultiPurposeListener(new OnMultiPurposeListener() {
+            @Override
+            public void onHeaderPulling(RefreshHeader header, float percent, int offset, int headerHeight, int extendHeight) {
+
+            }
+
+            @Override
+            public void onHeaderReleasing(RefreshHeader header, float percent, int offset, int headerHeight, int extendHeight) {
+
+            }
+
+            @Override
+            public void onHeaderStartAnimator(RefreshHeader header, int headerHeight, int extendHeight) {
+
+            }
+
+            @Override
+            public void onHeaderFinish(RefreshHeader header, boolean success) {
+
+            }
+
+            @Override
+            public void onFooterPulling(RefreshFooter footer, float percent, int offset, int footerHeight, int extendHeight) {
+
+            }
+
+            @Override
+            public void onFooterReleasing(RefreshFooter footer, float percent, int offset, int footerHeight, int extendHeight) {
+
+            }
+
+            @Override
+            public void onFooterStartAnimator(RefreshFooter footer, int footerHeight, int extendHeight) {
+
+            }
+
+            @Override
+            public void onFooterFinish(RefreshFooter footer, boolean success) {
+
+            }
+
+            @Override
+            public void onLoadmore(RefreshLayout refreshlayout) {
+
+            }
+
+            @Override
+            public void onRefresh(RefreshLayout refreshlayout) {
+
+            }
+
+            @Override
+            public void onStateChanged(RefreshLayout refreshLayout, RefreshState oldState, RefreshState newState) {
+
+            }
+        });
 
         final RecyclerView pullToRefreshRV = (RecyclerView) findViewById(R.id.id_recyclerview);
         pullToRefreshRV.setLayoutManager(new GridLayoutManager(this, 1, LinearLayoutManager.VERTICAL, false));
@@ -77,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void GetList() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 30; i++) {
             data.add(i + "Data");
         }
 
