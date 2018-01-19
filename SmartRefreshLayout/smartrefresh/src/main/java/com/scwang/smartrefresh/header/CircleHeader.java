@@ -98,6 +98,16 @@ public class CircleHeader extends View implements RefreshHeader {
         mPath = new Path();
     }
 
+    public void setmBackPaintColor(@ColorInt int color){
+        mBackPaint.setColor(color);
+    }
+    public void setmFrontPaintColor(@ColorInt int color){
+        mFrontPaint.setColor(color);
+    }
+    public void setmOuterPaintColor(@ColorInt int color){
+        mOuterPaint.setColor(color);
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(resolveSize(getSuggestedMinimumWidth(), widthMeasureSpec),
