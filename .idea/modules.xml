@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SmartRefreshLayout.iml" filepath="$PROJECT_DIR$/.idea/SmartRefreshLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartRefresh.iml" filepath="$PROJECT_DIR$/SmartRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartrefresh/smartrefresh.iml" filepath="$PROJECT_DIR$/smartrefresh/smartrefresh.iml" />
     </modules>
   </component>
 </project>

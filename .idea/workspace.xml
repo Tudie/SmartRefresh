@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.0.2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-rc01</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1566294050698</last-search-timestamp>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
@@ -7,62 +65,407 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c9c1040-ab0f-4d2c-969b-c6e4908b4ccb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/misc.xml" afterPath="$PROJECT_DIR$/SmartRefreshLayout/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/build.gradle" afterPath="$PROJECT_DIR$/SmartRefreshLayout/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/build.gradle" afterPath="$PROJECT_DIR$/SmartRefreshLayout/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/SmartRefreshLayout/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/build.gradle" afterPath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/build.gradle" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartRefresh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartrefresh/smartrefresh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartRefreshLayout.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/androidTest/java/tudie/com/smartrefreshlayoutdemo/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/java/tudie/com/smartrefreshlayoutdemo/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/layout/emty_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/layout/item_mode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/app/src/test/java/tudie/com/smartrefreshlayoutdemo/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/androidTest/java/com/scwang/smartrefresh/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/CommonAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/MultiItemTypeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/ViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/base/ItemViewDelegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/base/ItemViewDelegateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/CommonAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/GridLayoutManagerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/LinearLayoutManagerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/MultiItemTypeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/RecycleViewDivider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ItemViewDelegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ItemViewDelegateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/utils/WrapperUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/EmptyWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/HeaderAndFooterWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/LoadMoreWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/CircleHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/DeliveryHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/DropboxHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FlyRefreshHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FunGameBattleCityHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FunGameHitBlockHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/MaterialHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/PhoenixHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/StoreHouseHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/TaurusHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/WaterDropHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/WaveSwipeHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/FlyView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/MountanScenceView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompatApi21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompatBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorGingerbread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/internal/FastOutSlowInInterpolator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/internal/LookupTableInterpolator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/internal/MaterialProgressDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/material/CircleImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/storehouse/StoreHouseBarItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/storehouse/StoreHousePath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waterdrop/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waterdrop/WaterDropView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/AnimationImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/DisplayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/DropBounceInterpolator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/WaveView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/SmartRefreshLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/DefaultRefreshFooterCreater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/DefaultRefreshHeaderCreater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshInternal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshKernel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/ScrollBoundaryDecider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/constant/DimensionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/constant/RefreshState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/constant/SpinnerStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/BallPulseFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/FalsifyFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/ballpulse/BallPulseView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/BezierRadarHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/ClassicsHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/FalsifyHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RippleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RoundDotView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RoundProgressView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/WaveView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/RefreshContentWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/RefreshFooterWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/RefreshHeaderWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/ScrollBoundaryDeciderAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/ProgressDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/pathview/PathParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/pathview/PathsDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/pathview/PathsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/AnimationEndListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/OnLoadmoreListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/OnMultiPurposeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/OnRefreshListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/OnRefreshLoadmoreListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/OnStateChangedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/listener/SimpleMultiPurposeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/ColorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/DelayedRunable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/DensityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/ScrollBoundaryUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/ViscousFluidInterpolator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartRefreshLayout/smartrefresh/src/test/java/com/scwang/smartrefresh/ExampleUnitTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/RefreshContentWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="698" column="9" selection-start-line="698" selection-start-column="9" selection-end-line="698" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tudie/com/smartrefreshlayoutdemo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/WaveView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9975">
+              <caret line="683" column="38" selection-start-line="683" selection-start-column="38" selection-end-line="683" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waterdrop/WaterDropView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3510">
+              <caret line="240" column="43" selection-start-line="240" selection-start-column="43" selection-end-line="240" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8587#8588#0" expanded="true" />
+                <element signature="e#8625#8626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/CircleHeader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5700">
+              <caret line="388" column="12" selection-start-line="388" selection-start-column="12" selection-end-line="388" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/ballpulse/BallPulseView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/FalsifyFooter.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/FalsifyHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/pathview/PathsDrawable.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/DefaultRefreshHeaderCreater.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RippleView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RoundProgressView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/LinearLayoutManagerWrapper.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/LoadMoreWrapper.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/HeaderAndFooterWrapper.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ViewHolder.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ItemViewDelegateManager.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/utils/WrapperUtils.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/ProgressDrawable.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/DefaultRefreshFooterCreater.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/WaveView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RoundDotView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/GridLayoutManagerWrapper.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/base/ItemViewDelegateManager.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameBase.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompatBase.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorGingerbread.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompatApi21.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FunGameBattleCityHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/MaterialHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/PhoenixHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FlyRefreshHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/WaterDropHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FunGameHitBlockHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/StoreHouseHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/ColorUtils.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/ClassicsHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/material/CircleImageView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/BezierRadarHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/MountanScenceView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/internal/MaterialProgressDrawable.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/DeliveryHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/WaveSwipeHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/RecycleViewDivider.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/WaveView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waterdrop/WaterDropView.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/CircleHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/DropboxHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/TaurusHeader.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/SmartRefreshLayout.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java" />
+        <option value="$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/RefreshContentWrapper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tudie/com/smartrefreshlayoutdemo/MainActivity.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="42" />
+    <option name="x" value="100" />
+    <option name="y" value="65" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartRefresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartRefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartRefresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartRefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartRefresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartRefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartRefresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartRefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartRefresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartRefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -74,14 +477,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="device.picker.selection" value="Pixel_2_API_29" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,74 +505,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -182,9 +523,81 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -200,42 +613,531 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="42" width="1440" height="877" extended-state="0" />
+    <frame x="100" y="65" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Logcat" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" visible="true" weight="0.34012738" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/pathview/PathsDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/DefaultRefreshHeaderCreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RippleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RoundProgressView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/LinearLayoutManagerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/LoadMoreWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2275#2754#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/wrapper/HeaderAndFooterWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/base/ItemViewDelegateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/utils/WrapperUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#981#1228#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/internal/ProgressDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/DefaultRefreshFooterCreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/WaveView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/bezierradar/RoundDotView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/GridLayoutManagerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterlistveiw/base/ItemViewDelegateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="241" column="12" lean-forward="true" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompatBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorGingerbread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/PathInterpolatorCompatApi21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FunGameBattleCityHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/MaterialHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/PhoenixHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="264" column="12" lean-forward="true" selection-start-line="264" selection-start-column="12" selection-end-line="264" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FlyRefreshHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/WaterDropHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="255" column="42" selection-start-line="255" selection-start-column="42" selection-end-line="255" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/FunGameHitBlockHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/StoreHouseHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="294" column="12" selection-start-line="294" selection-start-column="12" selection-end-line="294" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/util/ColorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="597" column="22" selection-start-line="597" selection-start-column="22" selection-end-line="597" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/ClassicsHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="328" column="42" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/material/CircleImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/header/BezierRadarHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="199" column="42" selection-start-line="199" selection-start-column="42" selection-end-line="199" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/fungame/FunGameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="297" column="42" selection-start-line="297" selection-start-column="42" selection-end-line="297" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/flyrefresh/MountanScenceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/internal/MaterialProgressDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6864#6865#0" expanded="true" />
+            <element signature="e#6911#6912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/DeliveryHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/WaveSwipeHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5220">
+          <caret line="370" column="67" selection-start-line="370" selection-start-column="67" selection-end-line="370" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/SmartRefreshLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12150">
+          <caret line="810" column="44" selection-start-line="810" selection-start-column="44" selection-end-line="810" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waveswipe/WaveView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9975">
+          <caret line="683" column="38" selection-start-line="683" selection-start-column="38" selection-end-line="683" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/waterdrop/WaterDropView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="240" column="43" selection-start-line="240" selection-start-column="43" selection-end-line="240" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8587#8588#0" expanded="true" />
+            <element signature="e#8625#8626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/CircleHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="388" column="12" selection-start-line="388" selection-start-column="12" selection-end-line="388" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/DropboxHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/TaurusHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="196" column="42" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/adapter/adapterrecyclerview/RecycleViewDivider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/impl/RefreshContentWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="698" column="9" selection-start-line="698" selection-start-column="9" selection-end-line="698" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tudie/com/smartrefreshlayoutdemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
