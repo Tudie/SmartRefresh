@@ -11,7 +11,7 @@
 	
 ### Step 2. Add the dependency
      dependencies {
-	        compile 'com.github.Tudie:SmartRefresh:v1.0.0'
+	        compile 'com.github.Tudie:SmartRefresh:v1.0.3'
 	}
 	
 ### Step 3. Java代码设置
