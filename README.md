@@ -11,7 +11,7 @@
 	
 ### Step 2. Add the dependency
      dependencies {
-	        compile 'com.github.Tudie:SmartRefresh:v1.0.3'
+	        compile 'com.github.Tudie:SmartRefresh:v1.0.4'
 	}
 	
 ### Step 3. Java代码设置
@@ -41,7 +41,7 @@
         android:layout_height="match_parent"
         android:background="#ffffff">
 
-     <android.support.v7.widget.RecyclerView
+     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
