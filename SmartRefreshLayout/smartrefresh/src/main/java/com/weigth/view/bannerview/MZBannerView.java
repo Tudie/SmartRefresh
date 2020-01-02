@@ -56,6 +56,7 @@ public class MZBannerView<T> extends RelativeLayout {
     private int mDelayedTime = 3000;// Banner 切换时间间隔
     private ViewPagerScroller mViewPagerScroller;//控制ViewPager滑动速度的Scroller
     private boolean mIsOpenMZEffect = true;// 开启魅族Banner效果
+    private boolean mIsCanLoops = true;// 默认是否轮播图片
     private boolean mIsCanLoop = true;// 是否轮播图片
     private LinearLayout mIndicatorContainer;//indicator容器
     private ArrayList<ImageView> mIndicators = new ArrayList<>();
@@ -152,6 +153,7 @@ public class MZBannerView<T> extends RelativeLayout {
         mIsOpenMZEffect = typedArray.getBoolean(R.styleable.MZBannerView_open_mz_mode, true);
         mIsMiddlePageCover = typedArray.getBoolean(R.styleable.MZBannerView_middle_page_cover, true);
         mIsCanLoop = typedArray.getBoolean(R.styleable.MZBannerView_canLoop, true);
+        mIsCanLoops=mIsCanLoop;
         mIndicatorAlign = typedArray.getInt(R.styleable.MZBannerView_indicatorAlign, 1);
         mIndicatorPaddingLeft = typedArray.getDimensionPixelSize(R.styleable.MZBannerView_indicatorPaddingLeft, 0);
         mIndicatorPaddingRight = typedArray.getDimensionPixelSize(R.styleable.MZBannerView_indicatorPaddingRight, 0);
@@ -429,6 +431,8 @@ public class MZBannerView<T> extends RelativeLayout {
         mDatas = datas;
         if (datas.size() < 2) {
             mIsCanLoop = false;
+        }else {
+            mIsCanLoop = mIsCanLoops;
         }
         //如果在播放，就先让播放停止
         pause();
