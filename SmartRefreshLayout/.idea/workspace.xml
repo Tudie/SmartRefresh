@@ -133,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/weigth/view/bannerview/MZBannerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="541" column="72" selection-start-line="541" selection-start-column="62" selection-end-line="541" selection-end-column="72" />
+            <state relative-caret-position="436">
+              <caret line="443" column="36" lean-forward="true" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,7 +240,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
+    <option name="x" value="-40" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="852" />
@@ -265,60 +265,6 @@
               <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartRefreshLayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartRefreshLayout" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="smartrefresh" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bannerview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="23" width="1440" height="852" extended-state="0" />
+    <frame x="-40" y="23" width="1440" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -584,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/weigth/view/bannerview/MZBannerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="541" column="72" selection-start-line="541" selection-start-column="62" selection-end-line="541" selection-end-column="72" />
+        <state relative-caret-position="436">
+          <caret line="443" column="36" lean-forward="true" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
