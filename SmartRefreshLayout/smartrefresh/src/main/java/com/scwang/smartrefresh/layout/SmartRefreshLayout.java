@@ -66,6 +66,7 @@ import com.scwang.smartrefresh.layout.util.DelayedRunable;
 import com.scwang.smartrefresh.layout.util.DensityUtil;
 import com.scwang.smartrefresh.layout.util.ViscousFluidInterpolator;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -280,7 +281,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
         mEnableRefresh = ta.getBoolean(R.styleable.SmartRefreshLayout_srlEnableRefresh, mEnableRefresh);
         mReboundDuration = ta.getInt(R.styleable.SmartRefreshLayout_srlReboundDuration, mReboundDuration);
         mEnableLoadmore = ta.getBoolean(R.styleable.SmartRefreshLayout_srlEnableLoadmore, mEnableLoadmore);
-        mHeaderHeight = ta.getDimensionPixelOffset(R.styleable.SmartRefreshLayout_srlHeaderHeight, density.dip2px(110));
+        mHeaderHeight = ta.getDimensionPixelOffset(R.styleable.SmartRefreshLayout_srlHeaderHeight, density.dip2px(80))+getSystemStatusBarHeight();
         mFooterHeight = ta.getDimensionPixelOffset(R.styleable.SmartRefreshLayout_srlFooterHeight, density.dip2px(60));
         mDisableContentWhenRefresh = ta.getBoolean(R.styleable.SmartRefreshLayout_srlDisableContentWhenRefresh, mDisableContentWhenRefresh);
         mDisableContentWhenLoading = ta.getBoolean(R.styleable.SmartRefreshLayout_srlDisableContentWhenLoading, mDisableContentWhenLoading);
@@ -2715,6 +2716,17 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
         }
         return handler.postDelayed(new DelayedRunable(action), delayMillis);
     }
-
+    public int getSystemStatusBarHeight() {
+        try {
+            Class<?> clazz = Class.forName("com.android.internal.R$dimen");
+            Object obj = clazz.newInstance();
+            Field field = clazz.getField("status_bar_height");
+            int x = Integer.parseInt(field.get(obj).toString());
+            return getResources().getDimensionPixelSize(x);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
     //</editor-fold>
 }

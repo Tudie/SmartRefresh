@@ -102,7 +102,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.0.101:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -135,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/tudie/com/smartrefreshlayoutdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -143,8 +143,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/SmartRefreshLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="2049" column="13" selection-start-line="2049" selection-start-column="13" selection-end-line="2049" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="298" column="88" lean-forward="true" selection-start-line="298" selection-start-column="88" selection-end-line="298" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -153,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/CircleHeader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -168,6 +177,8 @@
       <find>mWaveHeight</find>
       <find>mPaddingTop</find>
       <find>mHeadHeight</find>
+      <find>setRefreshHeader</find>
+      <find>mHeaderHeight</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,10 +205,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-52" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1311" />
     <option name="height" value="852" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -269,7 +279,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.0.101:5555" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-01-02T09:29:10.433Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-01-02T09:50:51.103Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="Pixel_2_API_29" />
@@ -371,11 +381,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1440" height="852" extended-state="0" />
+    <frame x="-52" y="23" width="1440" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3297568" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3297568" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -383,13 +393,14 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49928468" weight="0.32894737" />
       <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49928468" weight="0.45" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" sideWeight="0.49928468" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5007153" side_tool="true" weight="0.5907895" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49928468" weight="0.15526316" />
+      <window_info active="true" anchor="bottom" id="Build" order="6" sideWeight="0.49928468" visible="true" weight="0.15526316" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -560,21 +571,28 @@
     <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/header/CircleHeader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/tudie/com/smartrefreshlayoutdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/api/RefreshLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smartrefresh/src/main/java/com/scwang/smartrefresh/layout/SmartRefreshLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="2049" column="13" selection-start-line="2049" selection-start-column="13" selection-end-line="2049" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="298" column="88" lean-forward="true" selection-start-line="298" selection-start-column="88" selection-end-line="298" selection-end-column="88" />
         </state>
       </provider>
     </entry>
