@@ -9,6 +9,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -78,6 +79,7 @@ public class ClassicsHeader extends RelativeLayout implements RefreshHeader {
     protected DateFormat mFormat = new SimpleDateFormat(REFRESH_HEADER_LASTTIME, Locale.CHINA);
     protected int mFinishDuration = 0;
     protected int mBackgroundColor;
+    protected int heigth = 20;
     protected int mPaddingTop = 20;
     protected int mPaddingBottom = 20;
     protected boolean mEnableLastTime = true;
@@ -105,6 +107,17 @@ public class ClassicsHeader extends RelativeLayout implements RefreshHeader {
     }
 
     private void initView(Context context, AttributeSet attrs) {
+        try {
+            Class<?> clazz = Class.forName("com.android.internal.R$dimen");
+            Object object = clazz.newInstance();
+            int height = Integer.parseInt(clazz.getField("status_bar_height")
+                    .get(object).toString());
+            heigth = getResources().getDimensionPixelSize(height);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Log.i(">>>>gaodu",">>>>gaodu"+heigth);
+
         DensityUtil density = new DensityUtil();
 
         LinearLayout layout = new LinearLayout(context);
@@ -126,7 +139,7 @@ public class ClassicsHeader extends RelativeLayout implements RefreshHeader {
         lpHeaderLayout.addRule(CENTER_IN_PARENT);
         addView(layout,lpHeaderLayout);
 
-        LayoutParams lpArrow = new LayoutParams(density.dip2px(20), density.dip2px(20));
+        LayoutParams lpArrow = new LayoutParams(density.dip2px(heigth), density.dip2px(heigth));
         lpArrow.addRule(CENTER_VERTICAL);
         lpArrow.addRule(LEFT_OF, android.R.id.widget_frame);
         mArrowView = new ImageView(context);
@@ -213,13 +226,13 @@ public class ClassicsHeader extends RelativeLayout implements RefreshHeader {
 
         if (getPaddingTop() == 0) {
             if (getPaddingBottom() == 0) {
-                setPadding(getPaddingLeft(), mPaddingTop = density.dip2px(20), getPaddingRight(), mPaddingBottom = density.dip2px(20));
+                setPadding(getPaddingLeft(), mPaddingTop = density.dip2px(heigth), getPaddingRight(), mPaddingBottom = density.dip2px(heigth));
             } else {
-                setPadding(getPaddingLeft(), mPaddingTop = density.dip2px(20), getPaddingRight(), mPaddingBottom = getPaddingBottom());
+                setPadding(getPaddingLeft(), mPaddingTop = density.dip2px(heigth), getPaddingRight(), mPaddingBottom = getPaddingBottom());
             }
         } else {
             if (getPaddingBottom() == 0) {
-                setPadding(getPaddingLeft(), mPaddingTop = getPaddingTop(), getPaddingRight(), mPaddingBottom = density.dip2px(20));
+                setPadding(getPaddingLeft(), mPaddingTop = getPaddingTop(), getPaddingRight(), mPaddingBottom = density.dip2px(heigth));
             } else {
                 mPaddingTop = getPaddingTop();
                 mPaddingBottom = getPaddingBottom();

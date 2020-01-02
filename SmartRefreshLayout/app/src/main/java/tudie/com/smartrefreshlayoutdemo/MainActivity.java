@@ -1,5 +1,6 @@
 package tudie.com.smartrefreshlayoutdemo;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewTreeObserver;
+import android.view.WindowManager;
 import android.widget.LinearLayout;
 
 import com.scwang.smartrefresh.adapter.adapterrecyclerview.CommonAdapter;
@@ -18,6 +20,7 @@ import com.scwang.smartrefresh.adapter.adapterrecyclerview.wrapper.EmptyWrapper;
 import com.scwang.smartrefresh.adapter.adapterrecyclerview.wrapper.HeaderAndFooterWrapper;
 import com.scwang.smartrefresh.header.CircleHeader;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
+import com.scwang.smartrefresh.layout.api.DefaultRefreshHeaderCreater;
 import com.scwang.smartrefresh.layout.api.RefreshFooter;
 import com.scwang.smartrefresh.layout.api.RefreshHeader;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
@@ -39,10 +42,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_main);
+        SmartRefreshLayout.setDefaultRefreshHeaderCreater(new DefaultRefreshHeaderCreater() {
+            @Override
+            public RefreshHeader createRefreshHeader(Context context, RefreshLayout layout) {
+                layout.setPrimaryColorsId(R.color.colorPrimaryDark, android.R.color.black);//全局设置主题颜色
+                return new CircleHeader(context);//.setTimeFormat(new DynamicTimeFormat("更新于 %s"));//指定为经典Header，默认是 贝塞尔雷达Header
+            }
+        });
       final   SmartRefreshLayout refreshLayout = (SmartRefreshLayout) findViewById(R.id.smartLayout);
         CircleHeader circleHeader=new CircleHeader(this);
-        circleHeader.setmBackPaintColor(0xffffffff);
+        circleHeader.setmBackPaintColor(0x0000ff);
         circleHeader.setmFrontPaintColor(0xff02c293);
         circleHeader.setmOuterPaintColor(0xff0000);
         refreshLayout.setRefreshHeader(circleHeader);
