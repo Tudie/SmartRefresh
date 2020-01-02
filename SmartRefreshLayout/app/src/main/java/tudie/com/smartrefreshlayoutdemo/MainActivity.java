@@ -45,13 +45,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
-        SmartRefreshLayout.setDefaultRefreshHeaderCreater(new DefaultRefreshHeaderCreater() {
-            @Override
-            public RefreshHeader createRefreshHeader(Context context, RefreshLayout layout) {
-                layout.setPrimaryColorsId(R.color.colorPrimaryDark, android.R.color.black);//全局设置主题颜色
-                return new CircleHeader(context);//.setTimeFormat(new DynamicTimeFormat("更新于 %s"));//指定为经典Header，默认是 贝塞尔雷达Header
-            }
-        });
+    
       final   SmartRefreshLayout refreshLayout = (SmartRefreshLayout) findViewById(R.id.smartLayout);
         CircleHeader circleHeader=new CircleHeader(this);
         circleHeader.setmBackPaintColor(0x0000ff);
