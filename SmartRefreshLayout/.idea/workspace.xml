@@ -225,7 +225,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-67" />
+    <option name="x" value="43" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="852" />
@@ -401,7 +401,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-67" y="23" width="1440" height="852" extended-state="0" />
+    <frame x="43" y="23" width="1440" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
